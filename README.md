@@ -1,16 +1,104 @@
-# React + Vite
+# React Redux Toolkit Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Todo Application built with **React**, **Vite**, and **Redux Toolkit**. This project demonstrates state management using Redux Toolkit with features like adding, deleting, and managing todos efficiently.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add new todos
+- Delete existing todos
+- Update todo state
+- Global state management with Redux Toolkit
+- Fast development with Vite
+- React Hooks integration
+- Clean and responsive UI
+- Scalable project structure
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Redux Toolkit
+- React Redux
+- JavaScript (ES6+)
+- CSS / Tailwind CSS
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+│
+├── app/
+│   └── store.js
+│
+├── features/
+│   └── todo/
+│       └── todoSlice.js
+│
+├── components/
+│   ├── AddTodo.jsx
+│   └── Todos.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+## 🎯 What You'll Learn
+
+- Redux Store
+- Actions and Reducers
+- createSlice()
+- configureStore()
+- useDispatch()
+- useSelector()
+- State Management in React
+- Redux Toolkit Best Practices
+
+## 📸 Screenshots
+
+Add application screenshots here.
+
+```markdown
+![Todo App](./screenshots/home.png)
+```
+
+## 🚀 Available Scripts
+
+```bash
+npm run dev
+```
+
+Starts the development server.
+
+```bash
+npm run build
+```
+
+Builds the application for production.
+
+```bash
+npm run preview
+```
+
+Previews the production build locally.
+
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+**Chandra Prakash**
+
+- GitHub: https://github.com/chandra9651
+---
+
+⭐ If you found this project useful, consider giving it a star on GitHub.
